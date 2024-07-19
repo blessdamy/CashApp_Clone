@@ -1,0 +1,113 @@
+.hero {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  overflow: hidden;
+  margin-bottom: -14%;
+  position: relative;
+}
+
+
+.navigation-dots_container {
+  position: fixed;
+  top: 50vh;
+  padding-left: 32px;
+  z-index: 2;
+  transition: opacity 0.2s ease-out;
+}
+.navigation-dots {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: currentColor;
+  transition: all 0.2s;
+  margin-bottom: 8px;
+}
+
+.inActive {
+  color: #fff;
+
+  background-color: #fff;
+}
+
+.navigation-dots_active {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.pause{
+  position: absolute;
+  top: 65%;
+  right: 20px;
+}
+
+.pause_play{
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  
+}
+
+.hero_background {
+  min-height: 100%;
+  width: 100%;
+  float: left;
+  padding: none;
+  object-fit: cover;
+  z-index: -1;
+ 
+}
+
+.hero_text_div {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Cash Sans Wide", "Helvetica Neue", helvetica, sans-serif;
+}
+
+.hero_text {
+  margin-bottom: 0.4em;
+  white-space: pre-wrap;
+  padding-top: 80px;
+}
+
+.hero_text span:nth-child(1) {
+  transform: translateX(0.5em);
+}
+
+.hero_text span:nth-child(2) {
+  transform: translateX(1em);
+}
+
+.hero_text span:nth-child(3) {
+  transform: translateX(0em);
+  display: inline-flex;
+  align-items: center;
+  gap: 22.0938px;
+}
+
+.hero_txt-2-div {
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero_txt-2 {
+  font-family: "Cash Sans", "Helvetica Neue", helvetica, sans-serif;
+  font-size: clamp(1.3125rem, 0.1768902439rem + 1.7743902439vw, 2.04rem);
+  line-height: 27.0684px;
+}
+
+.hero_paragraph_div {
+  padding-top: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero_paragraph {
+  text-align: center;
+}

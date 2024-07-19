@@ -1,0 +1,32 @@
+.bar_code_container {
+  align-items: center;
+  border-color: #fff;
+  border-radius: 11px;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-flex;
+  font-size: 88.375px;
+  font-weight: 600;
+  letter-spacing: -0.88375px;
+  line-height: 92.7937px;
+  padding: 4px;
+  text-align: left;
+  text-transform: uppercase;
+  gap: 21px;
+}
+
+.bar_code_txt {
+  font-weight: 700;
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: clamp(0.75rem, 0.5434782609rem + 0.4347826087vw, 1rem);
+  line-height: 0.98;
+  padding-left: 26px;
+  text-transform: none;
+}
+
+.bar_code {
+  width: clamp(3.88rem, 1.922173913rem + 4.1217391304vw, 6.25rem);
+  flex: 0 1;
+  border-radius: 7.7px;
+}

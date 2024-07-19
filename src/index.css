@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.heading-2 {
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 0.95;
+  font-size: clamp(4.1875rem, 0.1875rem + 6.25vw, 6.75rem);
+  text-align: left;
+  line-height: 1.05;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading_paragraph {
+  font-family: "Cash Sans", "Helvetica Neue", helvetica, sans-serif;
+  /* font-size: 8px; */
+  font-weight: 500;
+  font-size: clamp(0.625rem, 0.6029929577rem + 0.0938967136vw, 0.6875rem);
+  line-height: 1.35;
+}
+
+.bar-code-noBackgrd {
+  background-color: "";
+}
+
+.bar-code-Backgrd {
+  background-color: white;
+}
+
+.download_div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 11%;
+}
+
+/* a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+} */
+
+/* Default clip-paths */
+
+/* .component {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  transition: clip-path 0.3s ease-in-out;
+} */
+
+/* Straight clip-paths */
+/* .hero.straight {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.component.straight {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+} */

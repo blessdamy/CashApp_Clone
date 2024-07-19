@@ -1,0 +1,15 @@
+.button {
+  font-family: "Cash Sans", "Helvetica Neue", helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  line-height: 46px;
+  padding: 0 1.952rem;
+  border-radius: 1.4375rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}

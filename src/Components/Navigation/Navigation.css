@@ -1,0 +1,20 @@
+.nav {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.cashApp_logo {
+  width: 148px;
+}
+
+.nav_right_side {
+  display: flex;
+  gap: 0.75rem;
+}

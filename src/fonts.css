@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Cash Sans Wide';
+    src: url('./fonts/CashSansWide-Regular.woff2') format('woff2'),
+         url('./fonts/CashSansWide-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans Wide';
+    src: url('./fonts/CashSansWide-Medium.woff2') format('woff2'),
+         url('./fonts/CashSansWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans Wide';
+    src: url('./fonts/CashSansWide-Semibold.woff2') format('woff2'),
+         url('./fonts/CashSansWide-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans Wide';
+    src: url('./fonts/CashSansWide-Bold.woff2') format('woff2'),
+         url('./fonts/CashSansWide-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans';
+    src: url('./fonts/CashSans-Regular.woff2') format('woff2'),
+         url('./fonts/CashSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans';
+    src: url('./fonts/CashSans-Medium.woff2') format('woff2'),
+         url('./fonts/CashSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans';
+    src: url('./fonts/CashSans-Semibold.woff2') format('woff2'),
+         url('./fonts/CashSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cash Sans';
+    src: url('./fonts/CashSans-Bold.woff2') format('woff2'),
+         url('./fonts/CashSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
